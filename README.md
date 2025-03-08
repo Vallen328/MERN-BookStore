@@ -1,8 +1,10 @@
 # Bookstore Management System
 
-![Project Screenshot](/screenshots/homepage.png) <!-- Add your screenshot path -->
+![image](https://github.com/user-attachments/assets/f272d56b-d7df-4e1e-8623-4c76cc6b0c2d)
+![image](https://github.com/user-attachments/assets/7b77da1a-2983-4b54-8592-59af76a702bf)
 
-A full-stack web application for managing an online bookstore with user and admin functionalities.
+
+A fully responsive full-stack web application for managing an online bookstore with user and admin functionalities.
 
 ## Features
 
@@ -48,7 +50,7 @@ A full-stack web application for managing an online bookstore with user and admi
 ### Setup
 
 1. **Clone the repository**
-git clone https://github.com/yourusername/bookstore-management.git
+git clone https://github.com/yourusername/MERN-BookStore.git
 cd bookstore-management
 
 2. **Backend Setup**
@@ -78,28 +80,6 @@ npm run dev
 
 Adding Images
 Store images in frontend/public/images directory
-
-Use in React components:
-
-<img src="/images/your-image.jpg" alt="Description" />
-
-Project Structure:
-
-bookstore-management/
-├── backend/
-│   ├── models/         # Database models
-│   ├── routes/         # API routes
-│   ├── middleware/     # Authentication middleware
-│   └── app.js          # Main server file
-├── frontend/
-│   ├── public/         # Static assets
-│   ├── src/
-│   │   ├── components/ # React components
-│   │   ├── pages/      # Application pages
-│   │   └── App.js      # Main React component
-├── .gitignore
-└── README.md
-
 
 **Contributing**
 Fork the project
