@@ -25,7 +25,7 @@ const Cart = () => {
     fetch();
   }, [Cart]);
   const deleteItem = async(bookid) => {
-    const response = await axios.put(`https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1//remove-from-cart/${bookid}`, {}, {headers});
+    const response = await axios.put(`https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1/remove-from-cart/${bookid}`, {}, {headers});
     alert(response.data.message);
   };
   useEffect(() => {
