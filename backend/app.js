@@ -11,11 +11,11 @@ const Order = require("./routes/order.router");
 app.use(cors());
 app.use(express.json());
 //Routes
-app.use("/api/v1", User);
-app.use("/api/v1", Books);
-app.use("/api/v1", Favourite);
-app.use("/api/v1", Cart);
-app.use("/api/v1", Order);
+app.use("https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1", User);
+app.use("https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1", Books);
+app.use("https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1", Favourite);
+app.use("https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1", Cart);
+app.use("https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1", Order);
 
 //Creating Port
 app.listen(process.env.PORT, () => {
