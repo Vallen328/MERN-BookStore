@@ -20,7 +20,7 @@ const AllBooks = () => {
           {Data &&
            Data.map((items, i) => (
            <div key={i}>
-            <BookCard  d data={items} />{" "} 
+            <BookCard data={items} />{" "} 
             </div>
           ))}
         </div>
