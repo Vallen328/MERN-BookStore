@@ -37,7 +37,7 @@ const AllOrders = () => {
     try {
       const id = AllOrders[i]._id;
       const response = await axios.put(
-        `http://localhost:1000/api/v1/update-status/${id}`,      
+        `https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1/update-status/${id}`,      
         Values,
         { headers }
       );
