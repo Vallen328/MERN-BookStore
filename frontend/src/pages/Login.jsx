@@ -20,7 +20,7 @@ const Login = () => {
       if(Values.username === "" || Values.password === ""){
         alert("All fields are required");
       }else{
-        const response = await axios.post("http://localhost:1000/api/v1/login", Values);
+        const response = await axios.post("https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1/login", Values);
         dispatch(authActions.login());
         dispatch(authActions.changeRole(response.data.role));
         localStorage.setItem("id", response.data.id);
