@@ -21,7 +21,7 @@ const AllOrders = () => {
 
   useEffect(() => {
     const fetch = async () => {
-        const response = await axios.get("http://localhost:1000/api/v1/get-all-orders", { headers });
+        const response = await axios.get("https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1/get-all-orders", { headers });
         setAllOrders(response.data.data);
     };
     fetch();
