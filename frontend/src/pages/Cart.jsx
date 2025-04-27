@@ -16,7 +16,7 @@ const Cart = () => {
   useEffect(() => {
     const fetch = async () => {
       const res = await axios.get(
-        "http://localhost:1000/api/v1/get-user-cart",
+        "https://d5vaxs5dc6.execute-api.ap-south-1.amazonaws.com/prod/api/v1/get-user-cart",
         {headers}
       );
 
