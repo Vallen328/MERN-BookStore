@@ -34,11 +34,10 @@ A fully responsive full-stack web application for managing an online bookstore w
   - Update order status (Delivered, Cancelled, etc.)
 
 ## Technologies Used
-- Frontend: React.js, HTML5, CSS3
+- Frontend: React.js, TailwindCSS
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Authentication: JWT
-- Payment Integration: (Add if any)
 
 ## Installation
 
